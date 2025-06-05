@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto - Lizy Tagliani</title>
+  <link rel="stylesheet" href="contacto.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Contacto</h1>
+    <p>¡Dejanos tu mensaje para Lizy!</p>
+  </header>
+
+  <main>
+    <form id="contactForm">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="respuesta"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tributo a Lizy Tagliani</p>
+    <a href="Lizy.html">Volver al inicio</a>
+  </footer>
+
+  <script src="contacto.js"></script>
+  <button id="verMensajesBtn">Ver mensajes guardados</button>
+  <div id="mensajesGuardados" class="mensajes-guardados"></div>
+
+</body>
+
+</html>

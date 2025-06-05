@@ -1,0 +1,81 @@
+:root{
+    --primario: #061539;
+    --secundario: #162955;
+    --terciario: #4F628E;
+    --cuarto: #E6E6E6;
+    --negro: #000;
+    --blanco: #fff;
+    --fondo: #7887AB;
+
+    --fuente: "Open Sans", sans-serif;
+
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: var(--fondo);
+    line-height: 1.5;
+    font-family: var(--fuente);
+
+}
+p{
+    font-size: 1.8rem;
+    text-indent: 20px;
+   
+}
+.items{
+    font-size: 1.8rem;
+
+}
+
+h1{
+    /*font-size: 3.5rem;*/
+    text-align: center;
+    text-indent: 10px;
+}
+h2{
+    font-size: 2.8rem;
+    text-indent: 10px;
+}
+
+h3{
+    font-size: 2.4rem;
+    text-align: center;
+    background-color: var(--secundario);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--negro);
+    padding: 2.5rem;
+    
+
+    
+}
+.hero-content{
+    text-align: center;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: larger;
+    
+}
+.main-nav ul {
+  list-style: none;       /* Quita los puntos de la lista */
+  display: flex;          /* Hace que los <li> estén en línea */
+  gap: 20px;              /* Espacio entre los elementos */
+  justify-content: space-around;
+}
+.main-nav li a {
+  text-decoration: none;
+  color: var(--negro)
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px 20px;        /* Espaciado interno */
+  border-radius: 15px;       /* Bordes redondeados */
+  background-color: #f0f0f0;
+  color: black;
+}

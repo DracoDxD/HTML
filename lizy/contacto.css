@@ -1,0 +1,86 @@
+/* Estilos para Contacto */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f0ff;
+  color: #333;
+}
+
+header {
+  background-color: #7a5fff;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 0.5rem 0 0.25rem;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #7a5fff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5b46d8;
+}
+
+#respuesta {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e0ffe4;
+  border: 1px solid #88cc88;
+  border-radius: 6px;
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #7a5fff;
+  color: white;
+  margin-top: 2rem;
+}
+
+footer a {
+  color: #ffd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
